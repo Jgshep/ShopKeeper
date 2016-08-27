@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.25618.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopKeeper.Class", "ShopKeeper\ShopKeeper.Class.csproj", "{20A8E6EA-D815-4E1B-96B1-3468A22AA520}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopKeeper.DataModel", "ShopKeeper.DataModel\ShopKeeper.DataModel.csproj", "{5421BE55-0FB7-4E79-8226-C770728EDE2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopKeeperApp", "ShopKeeperApp\ShopKeeperApp.csproj", "{697FFB44-CC66-4F51-B2B6-8B78DCAFBBE8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20A8E6EA-D815-4E1B-96B1-3468A22AA520}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20A8E6EA-D815-4E1B-96B1-3468A22AA520}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20A8E6EA-D815-4E1B-96B1-3468A22AA520}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20A8E6EA-D815-4E1B-96B1-3468A22AA520}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5421BE55-0FB7-4E79-8226-C770728EDE2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5421BE55-0FB7-4E79-8226-C770728EDE2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5421BE55-0FB7-4E79-8226-C770728EDE2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5421BE55-0FB7-4E79-8226-C770728EDE2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{697FFB44-CC66-4F51-B2B6-8B78DCAFBBE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{697FFB44-CC66-4F51-B2B6-8B78DCAFBBE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{697FFB44-CC66-4F51-B2B6-8B78DCAFBBE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{697FFB44-CC66-4F51-B2B6-8B78DCAFBBE8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
