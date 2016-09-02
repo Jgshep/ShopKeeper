@@ -22,7 +22,7 @@ namespace ShopKeeperApp.Controllers
         }
 
         // GET: ShopItems/Details/5
-        public ActionResult Details(string id)
+        public ActionResult Details(int id)
         {
             if (id == null)
             {
@@ -49,6 +49,7 @@ namespace ShopKeeperApp.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "Name,Price")] ShopItem shopItem)
         {
+
             if (ModelState.IsValid)
             {
                 db.Items.Add(shopItem);

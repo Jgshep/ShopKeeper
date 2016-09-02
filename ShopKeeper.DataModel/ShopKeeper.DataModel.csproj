@@ -53,6 +53,14 @@
     <Compile Include="Migrations\201608272156068_Initial.Designer.cs">
       <DependentUpon>201608272156068_Initial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201609021751355_AddIdToShopItem.cs" />
+    <Compile Include="Migrations\201609021751355_AddIdToShopItem.Designer.cs">
+      <DependentUpon>201609021751355_AddIdToShopItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201609021807137_AddIntIdToDataModel_Attempt1.cs" />
+    <Compile Include="Migrations\201609021807137_AddIntIdToDataModel_Attempt1.Designer.cs">
+      <DependentUpon>201609021807137_AddIntIdToDataModel_Attempt1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="ShopItemContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -70,6 +78,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201608272156068_Initial.resx">
       <DependentUpon>201608272156068_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201609021751355_AddIdToShopItem.resx">
+      <DependentUpon>201609021751355_AddIdToShopItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201609021807137_AddIntIdToDataModel_Attempt1.resx">
+      <DependentUpon>201609021807137_AddIntIdToDataModel_Attempt1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
