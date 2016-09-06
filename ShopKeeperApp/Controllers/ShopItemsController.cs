@@ -24,10 +24,6 @@ namespace ShopKeeperApp.Controllers
         // GET: ShopItems/Details/5
         public ActionResult Details(int id)
         {
-            if (id == null)
-            {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
             ShopItem shopItem = db.Items.Find(id);
             if (shopItem == null)
             {
@@ -61,12 +57,8 @@ namespace ShopKeeperApp.Controllers
         }
 
         // GET: ShopItems/Edit/5
-        public ActionResult Edit(string id)
+        public ActionResult Edit(int id)
         {
-            if (id == null)
-            {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
             ShopItem shopItem = db.Items.Find(id);
             if (shopItem == null)
             {
@@ -92,12 +84,8 @@ namespace ShopKeeperApp.Controllers
         }
 
         // GET: ShopItems/Delete/5
-        public ActionResult Delete(string id)
+        public ActionResult Delete(int id)
         {
-            if (id == null)
-            {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
             ShopItem shopItem = db.Items.Find(id);
             if (shopItem == null)
             {
@@ -109,7 +97,7 @@ namespace ShopKeeperApp.Controllers
         // POST: ShopItems/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public ActionResult DeleteConfirmed(string id)
+        public ActionResult DeleteConfirmed(int id)
         {
             ShopItem shopItem = db.Items.Find(id);
             db.Items.Remove(shopItem);
