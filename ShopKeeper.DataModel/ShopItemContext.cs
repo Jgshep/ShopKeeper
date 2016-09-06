@@ -8,4 +8,7 @@ namespace ShopKeeper.DataModel
         public DbSet<ShopItem> Items { get; set; }
 
     }
+
+
+
 }
